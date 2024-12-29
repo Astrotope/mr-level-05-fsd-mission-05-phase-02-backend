@@ -4,6 +4,10 @@ import { StationService } from '../services/stationService.js';
 export class StationController {
     constructor(private stationService: StationService) {}
 
+    getStationCount = async (): Promise<number> => {
+        return this.stationService.getStationCount();
+    };
+
     searchStations = async (req: Request, res: Response): Promise<void> => {
         try {
             const { 

@@ -7,10 +7,12 @@ export function createStationRouter(controller: StationController): Router {
     // Test endpoint to check database connection
     router.get('/test', async (req, res) => {
         try {
-            const count = await controller['stationService'].collection.countDocuments();
+            // Use a public method instead of accessing private property
+            const count = await controller.getStationCount();
             res.json({ message: 'Database connected', count });
-        } catch (error) {
-            res.status(500).json({ error: error.message });
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            res.status(500).json({ error: errorMessage });
         }
     });
 

@@ -35,6 +35,21 @@ services:
     profiles:
       - development
 
+  service-stations-api-prod:
+    container_name: service-stations-api-prod
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT}:${PORT}"
+    depends_on:
+      - mongodb
+    env_file: .env
+    networks:
+      - app-network
+    profiles:
+      - production
+
 networks:
   app-network:
     driver: bridge

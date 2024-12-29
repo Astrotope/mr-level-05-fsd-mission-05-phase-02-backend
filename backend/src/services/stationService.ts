@@ -10,6 +10,10 @@ export class StationService {
         this.checkDatabaseContent();
     }
 
+    async getStationCount(): Promise<number> {
+        return this.collection.countDocuments();
+    }
+
     private async checkDatabaseContent() {
         const count = await this.collection.countDocuments();
         console.log(`Database contains ${count} stations`);
