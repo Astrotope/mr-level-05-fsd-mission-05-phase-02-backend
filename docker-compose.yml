@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    env_file: .env
+    volumes:
+      - ./backend/scripts/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+      - ./backend/dataset/stations.json:/dataset/stations.json:ro
+      - ./mongodb_data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+    profiles:
+      - development
+      - production
+
+  service-stations-api:
+    container_name: service-stations-api-dev
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "${PORT}:${PORT}"
+    depends_on:
+      - mongodb
+    env_file: .env
+    networks:
+      - app-network
+    profiles:
+      - development
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:

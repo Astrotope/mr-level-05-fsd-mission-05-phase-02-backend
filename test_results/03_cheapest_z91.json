@@ -1,0 +1,1607 @@
+[
+  {
+    "_id": "677096309aacc62d59e949e6",
+    "uuid": "F2FE4F4C-CF47-11EB-B36C-D32FED028155",
+    "last_edited": "2024-04-03T13:53:17+13:00",
+    "name": "Z Rutherford",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "03-5466626",
+    "link": "/find-a-station/station/z-rutherford",
+    "site_id": "102362",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        173.28063702484,
+        -41.274660167167
+      ],
+      "address": "106 Rutherford Street, Nelson",
+      "suburb": "",
+      "city": "Nelson",
+      "region": "Nelson",
+      "postcode": "7010"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 11,
+        "name": "Pay by plate",
+        "code": "paybyplate",
+        "summary": "No wallet, no worries! Set up once and you're good to go.",
+        "link": "https://locator.z.co.nz/"
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.33",
+      "Z91 unleaded": "2.50",
+      "Z diesel": "2.07"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e94981",
+    "uuid": "EF537854-CF47-11EB-B176-57DBA342C68C",
+    "last_edited": "2024-04-03T13:53:00+13:00",
+    "name": "Z Central Parade",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "07-5721707",
+    "link": "/find-a-station/station/z-central-parade",
+    "site_id": "101085",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        176.19952405147,
+        -37.654267780389
+      ],
+      "address": "500 Maunganui Road, Mount Maunganui",
+      "suburb": "",
+      "city": "Mount Maunganui",
+      "region": "Bay of Plenty",
+      "postcode": "3116"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "5:00am - 10:00pm",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.16",
+      "Z91 unleaded": "2.51",
+      "Z diesel": "2.35"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e94991",
+    "uuid": "F01148FC-CF47-11EB-92EB-F1F18D3F9A09",
+    "last_edited": "2024-04-03T13:53:02+13:00",
+    "name": "Z Geraldine",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "03-6938810",
+    "link": "/find-a-station/station/z-geraldine",
+    "site_id": "191151",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        171.24263804539,
+        -44.089941980495
+      ],
+      "address": "Cnr Waihi Terrace & Pine Street",
+      "suburb": "",
+      "city": "Geraldine",
+      "region": "Canterbury",
+      "postcode": "7930"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "5:00am - 10:00pm",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "5:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 1,
+        "name": "Trailer hire",
+        "code": "trailerhire",
+        "summary": "We've got the top-quality Hireace trailers to move your things from A to B.",
+        "link": "https://www.z.co.nz/products-and-services/z-app/power-your-home/terms-and-conditions"
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 13,
+        "name": "Fast fill Diesel lane",
+        "code": "fastfilldiesellane",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.12",
+      "Z91 unleaded": "2.51",
+      "Z diesel": "2.09"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e94a53",
+    "uuid": "FC224F38-CF47-11EB-A9D6-C57B8FE984E4",
+    "last_edited": "2024-04-03T13:59:12+13:00",
+    "name": "Z Bombay",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "",
+    "link": "/find-a-station/station/z-bombay",
+    "site_id": "320822",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        174.983444,
+        -37.1920051
+      ],
+      "address": "Cnr Mill Road & Great South Road",
+      "suburb": "Bombay",
+      "city": "Auckland",
+      "region": "Auckland",
+      "postcode": "2675"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 34,
+        "name": "EV Charging - Fast",
+        "code": "evchargingfast",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 35,
+        "name": "EV Charging - Ultra-Fast",
+        "code": "evchargingultrafast",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 37,
+        "name": "EV Charging - Fast &/or Ultra-Fast",
+        "code": "evchargingfastorultrafast",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 1,
+        "name": "Trailer hire",
+        "code": "trailerhire",
+        "summary": "We've got the top-quality Hireace trailers to move your things from A to B.",
+        "link": "https://www.z.co.nz/products-and-services/z-app/power-your-home/terms-and-conditions"
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 11,
+        "name": "Pay by plate",
+        "code": "paybyplate",
+        "summary": "No wallet, no worries! Set up once and you're good to go.",
+        "link": "https://locator.z.co.nz/"
+      },
+      {
+        "id": 12,
+        "name": "Compostable Cups",
+        "code": "compostablecups",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 14,
+        "name": "ATM",
+        "code": "atm",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.32",
+      "Z91 unleaded": "2.51",
+      "Z diesel": "2.42",
+      "EV charging": "0.33"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e949c6",
+    "uuid": "F48A22E6-CF47-11EB-A725-51B312112E90",
+    "last_edited": "2024-04-03T13:53:12+13:00",
+    "name": "Z Morrinsville",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "07-8896141",
+    "link": "/find-a-station/station/z-morrinsville",
+    "site_id": "100800",
+    "pay_at_pump_247": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        175.52662785527,
+        -37.658732117332
+      ],
+      "address": "202-210 Thames Street, Morrinsville",
+      "suburb": "",
+      "city": "Morrinsville",
+      "region": "Waikato",
+      "postcode": "3300"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 38,
+        "name": "f'real",
+        "code": "freal",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.45",
+      "Z91 unleaded": "2.52",
+      "Z diesel": "2.23"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e94a09",
+    "uuid": "FBCE9604-CF47-11EB-9EB0-D76CD84608CE",
+    "last_edited": "2024-04-03T13:53:20+13:00",
+    "name": "Z Waikaraka",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "(09) 636 6153",
+    "link": "/find-a-station/station/z-waikaraka",
+    "site_id": "100512",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        174.79458491956,
+        -36.926653315157
+      ],
+      "address": "167-171 Neilson Street, Onehunga, Auckland",
+      "suburb": "Onehunga",
+      "city": "Auckland",
+      "region": "Auckland",
+      "postcode": "1061"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Friday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 1,
+        "name": "Trailer hire",
+        "code": "trailerhire",
+        "summary": "We've got the top-quality Hireace trailers to move your things from A to B.",
+        "link": "https://www.z.co.nz/products-and-services/z-app/power-your-home/terms-and-conditions"
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 12,
+        "name": "Compostable Cups",
+        "code": "compostablecups",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.16",
+      "Z91 unleaded": "2.52",
+      "Z diesel": "2.38"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e9497c",
+    "uuid": "F0B814E8-CF47-11EB-ACFC-0938EB743E27",
+    "last_edited": "2024-04-03T13:52:59+13:00",
+    "name": "Z Bryndwr",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "03-3558902",
+    "link": "/find-a-station/station/z-bryndwr",
+    "site_id": "102616",
+    "pay_at_pump_247": 1,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        172.60760176619,
+        -43.510460227366
+      ],
+      "address": "52 Strowan Road, Bryndwr, Christchurch",
+      "suburb": "Bryndwr",
+      "city": "Christchurch",
+      "region": "Canterbury",
+      "postcode": "8052"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "6:00am - 11:00pm",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:00am - 11:00pm",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 38,
+        "name": "f'real",
+        "code": "freal",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 1,
+        "name": "Trailer hire",
+        "code": "trailerhire",
+        "summary": "We've got the top-quality Hireace trailers to move your things from A to B.",
+        "link": "https://www.z.co.nz/products-and-services/z-app/power-your-home/terms-and-conditions"
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 12,
+        "name": "Compostable Cups",
+        "code": "compostablecups",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 14,
+        "name": "ATM",
+        "code": "atm",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.50",
+      "Z91 unleaded": "2.53",
+      "Z diesel": "2.24"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e949aa",
+    "uuid": "F3493EDA-CF47-11EB-AE31-2B270259FDAC",
+    "last_edited": "2024-04-03T13:53:07+13:00",
+    "name": "Z Kaikohe",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "09-4011550",
+    "link": "/find-a-station/station/z-kaikohe",
+    "site_id": "100062",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        173.80351680403,
+        -35.405910145374
+      ],
+      "address": "Broadway, Kaikohe",
+      "suburb": "",
+      "city": "Kaikohe",
+      "region": "Northland",
+      "postcode": "405"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 38,
+        "name": "f'real",
+        "code": "freal",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.48",
+      "Z91 unleaded": "2.53",
+      "Z diesel": "2.37"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e949bb",
+    "uuid": "FB65B760-CF47-11EB-854F-0B78338DE25B",
+    "last_edited": "2024-04-03T13:53:10+13:00",
+    "name": "Z London St",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "06 929 3723",
+    "link": "/find-a-station/station/z-london-st",
+    "site_id": "226397",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        175.03543211394,
+        -39.926659811014
+      ],
+      "address": "171 London St & Cnr Glasgow St",
+      "suburb": "College Estate",
+      "city": "Whanganui",
+      "region": "Manawatu-Wanganui",
+      "postcode": "4500"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "6:00am - 10:00pm",
+        "current": true
+      },
+      {
+        "day": "Friday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:00am - 10:00pm",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 13,
+        "name": "Fast fill Diesel lane",
+        "code": "fastfilldiesellane",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.46",
+      "Z91 unleaded": "2.53",
+      "Z diesel": "2.18"
+    }
+  },
+  {
+    "_id": "677096309aacc62d59e94a15",
+    "uuid": "EEE15062-CF47-11EB-B842-F153B37CB718",
+    "last_edited": "2024-04-03T13:53:22+13:00",
+    "name": "Z Wiri Station Rd",
+    "type": "Service station",
+    "type_slug": "service-station",
+    "brand": "Z",
+    "is_active": 1,
+    "closed_message": "",
+    "phone": "09-2623660",
+    "link": "/find-a-station/station/z-wiri-station-rd",
+    "site_id": "103746",
+    "pay_at_pump_247": 0,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        174.87121256953,
+        -36.999555744333
+      ],
+      "address": "83 Wiri Station Road, Manukau City",
+      "suburb": "Manukau",
+      "city": "Manukau City",
+      "region": "Auckland",
+      "postcode": "2104"
+    },
+    "opening_hours": [
+      {
+        "day": "Monday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Thursday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Friday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:00am - 6:00pm",
+        "current": false
+      }
+    ],
+    "fuels": [
+      {
+        "name": "ZX Premium",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zxpremium",
+        "brand": "Z",
+        "short_name": "zxpremium"
+      },
+      {
+        "name": "Z91 Unleaded",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "z91unleaded",
+        "brand": "Z",
+        "short_name": "z91unleaded"
+      },
+      {
+        "name": "Z Diesel",
+        "show_on_locator": false,
+        "icon": "",
+        "slug": "zdiesel",
+        "brand": "Z",
+        "short_name": "zdiesel"
+      }
+    ],
+    "services": [
+      {
+        "id": 35,
+        "name": "EV Charging - Ultra-Fast",
+        "code": "evchargingultrafast",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 37,
+        "name": "EV Charging - Fast &/or Ultra-Fast",
+        "code": "evchargingfastorultrafast",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Pre-order Coffee",
+        "code": "preordercoffee",
+        "summary": "Pre-order and pre-pay in your Z App using your debit or credit card.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 3,
+        "name": "Pay in app",
+        "code": "payinapp",
+        "summary": "The easy, secure way to fuel up and go. No cash or cards to hand over.",
+        "link": "/products-and-services/z-app/pay-with-z-app?https%3A%2F%2Fwww_z_co_nz%2Fproducts-and-services%2Fz-app%2Fpay-with-z-app="
+      },
+      {
+        "id": 4,
+        "name": "Z Espress Coffee & Fresh Food",
+        "code": "zespresscoffeefreshfood",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "name": "LPG SWAP'n'GO",
+        "code": "lpgswapngo",
+        "summary": "Fast, safe and simple.",
+        "link": "https://apply.z.co.nz/"
+      },
+      {
+        "id": 7,
+        "name": "Pay at pump",
+        "code": "payatpump",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "name": "Super long hoses",
+        "code": "superlonghoses",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "name": "Bathrooms",
+        "code": "bathrooms",
+        "summary": "",
+        "link": ""
+      },
+      {
+        "id": 12,
+        "name": "Compostable Cups",
+        "code": "compostablecups",
+        "summary": "",
+        "link": ""
+      }
+    ],
+    "stationType": "Service station",
+    "pricing": {
+      "ZX premium": "3.09",
+      "Z91 unleaded": "2.53",
+      "Z diesel": "2.24",
+      "EV charging": "0.44"
+    }
+  }
+]
