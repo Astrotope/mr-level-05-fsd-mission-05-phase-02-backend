@@ -13,7 +13,8 @@ export class StationController {
                 fuelType,
                 features,
                 stationType,
-                sortBy
+                sortBy,
+                limit  // Add limit parameter
             } = req.query;
 
             if (!latitude || !longitude) {
@@ -28,7 +29,8 @@ export class StationController {
                 fuelType: fuelType as string | undefined,
                 features: features ? (features as string).split(',') : undefined,
                 stationType: stationType as string | undefined,
-                sortBy: sortBy as 'distance' | 'price' | undefined
+                sortBy: sortBy as 'distance' | 'price' | undefined,
+                limit: limit ? parseInt(limit as string) : undefined  // Parse limit parameter
             };
 
             const stations = await this.stationService.findNearestStations(params);
@@ -42,13 +44,17 @@ export class StationController {
     getCheapestStations = async (req: Request, res: Response): Promise<void> => {
         try {
             const { fuelType } = req.params;
+            const { limit } = req.query;  // Add limit from query params
 
             if (!fuelType) {
                 res.status(400).json({ error: 'Fuel type is required' });
                 return;
             }
 
-            const stations = await this.stationService.findCheapestStations(fuelType);
+            const stations = await this.stationService.findCheapestStations(
+                fuelType,
+                limit ? parseInt(limit as string) : undefined
+            );
             res.json(stations);
         } catch (error) {
             console.error('Error getting cheapest stations:', error);

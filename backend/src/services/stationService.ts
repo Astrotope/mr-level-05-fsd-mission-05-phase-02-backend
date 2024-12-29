@@ -20,7 +20,16 @@ export class StationService {
     }
 
     async findNearestStations(params: SearchParams): Promise<ServiceStation[]> {
-        const { latitude, longitude, maxDistance = 10000, fuelType, features, stationType, sortBy = 'distance' } = params;
+        const { 
+            latitude, 
+            longitude, 
+            maxDistance = 10000, 
+            fuelType, 
+            features, 
+            stationType, 
+            sortBy = 'distance',
+            limit = 10  // Default to 10 if not specified
+        } = params;
 
         console.log('Search parameters:', JSON.stringify(params, null, 2));
 
@@ -53,7 +62,7 @@ export class StationService {
 
         const stations = await this.collection
             .find(query)
-            .limit(10)
+            .limit(limit)  // Use the limit parameter here
             .toArray();
 
         console.log(`Found ${stations.length} stations`);
@@ -64,12 +73,14 @@ export class StationService {
                 const priceB = parseFloat(b.pricing[fuelType]);
                 return priceA - priceB;
             });
+            // Re-apply limit after sorting by price
+            return stations.slice(0, limit);
         }
 
         return stations;
     }
 
-    async findCheapestStations(fuelType: string): Promise<ServiceStation[]> {
+    async findCheapestStations(fuelType: string, limit: number = 10): Promise<ServiceStation[]> {
         const query: any = {
             [`pricing.${fuelType}`]: { $exists: true }
         };
@@ -79,7 +90,7 @@ export class StationService {
         return this.collection
             .find(query)
             .sort({ [`pricing.${fuelType}`]: 1 })
-            .limit(10)
+            .limit(limit)
             .toArray();
     }
 

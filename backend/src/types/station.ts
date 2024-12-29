@@ -30,4 +30,5 @@ export interface SearchParams {
     features?: string[];
     stationType?: string;
     sortBy?: 'distance' | 'price';
+    limit?: number;  // Added limit parameter
 }
