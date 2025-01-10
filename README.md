@@ -2,6 +2,8 @@
 
 A RESTful API service built with Express.js and TypeScript that provides information about service stations, including their locations, fuel prices, and available services.
 
+![M5 Phase 02 - Technical Architecture - Visial Aide - Show and Tell](https://github.com/user-attachments/assets/21e27cc0-4913-4357-9bd0-5c6c33525c16)
+
 ## Features
 
 - Search for nearest service stations based on location
